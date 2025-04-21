@@ -67,6 +67,25 @@ circulo.calcular_area()
 circulo.calcular_perimetro()
 
 
+# 6) Dado un string con paréntesis "()", "{}", "[]", verifica si están correctamente
+# balanceados usando una pila.
+def balanceado(expresion):
+    pila = []
+    pares = {')': '(', '}': '{', ']': '['}
+
+    for caracter in expresion:
+        if caracter in "({[":
+            pila.append(caracter)
+        elif caracter in ")}]":
+            if not pila or pila.pop() != pares[caracter]:
+                return False
+
+    return len(pila) == 0
+
+print(balanceado("({[]})"))  
+print(balanceado("({[})")) 
+
+
 # 7) Usa una cola para simular un sistema de turnos en un banco. La cola debe permitir:
 # ● Agregar clientes (encolar).
 # ● Atender clientes (desencolar).
@@ -126,3 +145,31 @@ lista.agregar(3)
 lista.agregar(2)                    
 lista.agregar(1)
 lista.mostrar()
+
+
+# 9) Dada una lista enlazada, implementa una función para invertirla.
+class ListaEnlazada:
+    def __init__(self):
+        self.cabeza = None
+
+    def insertar(self, dato):
+        nuevo_nodo = Nodo(dato)
+        nuevo_nodo.siguiente = self.cabeza
+        self.cabeza = nuevo_nodo
+
+    def mostrar(self):
+        actual = self.cabeza
+        while actual:
+            print(actual.dato, end=" -> ")
+            actual = actual.siguiente
+        print("None")
+
+    def invertir(self):
+        prev = None
+        actual = self.cabeza
+        while actual:
+            siguiente = actual.siguiente
+            actual.siguiente = prev
+            prev = actual
+            actual = siguiente
+        self.cabeza = prev
