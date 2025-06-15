@@ -5,8 +5,8 @@
 
 ## ✨ Estudiante
 
-- **Nombre:** Barrera, Lucas Mariano _[Modificar con su nombre completo]_
-- **Comisión:** M2025-1 _[Modificar con su comisión, donde 7 es el número de comisión]_
+- **Nombre:** Barrera, Lucas Mariano
+- **Comisión:** M2025-1
 
 ## 📂 Descripción del Repositorio
 
