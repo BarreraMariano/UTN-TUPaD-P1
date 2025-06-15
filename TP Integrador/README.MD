@@ -1,4 +1,5 @@
 💻 Programación 1
+
 Tecnicatura Universitaria en Programación
 📍 Universidad Tecnológica Nacional
 
@@ -7,6 +8,7 @@ Nombre: Torres, Angel Fernando
 Comisión: M2025-9
 Nombre: Barrera, Lucas Mariano
 Comisión: M2025-1
+
 📌 Descripción:
 Este repositorio trata sobre el Trabajo Práctico Integrador. Su tema principal son los algoritmos de búsqueda y ordenamiento.
 
