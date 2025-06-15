@@ -11,13 +11,13 @@
 - **Comisión:** M2025-1
 
 **📌 Descripción:**
-Este repositorio trata sobre el Trabajo Práctico Integrador. Su tema principal son los algoritmos de búsqueda y ordenamiento.
+_Este repositorio trata sobre el Trabajo Práctico Integrador. Su tema principal son los algoritmos de búsqueda y ordenamiento._
 
 **📌 Instrucciones de uso:**
-Evaluar y calificar con 10 a los estudiantes :D
+_Evaluar y calificar con 10 a los estudiantes :D_
 
 **📌 Reflexiones del equipo:**
-Se aprendieron diversos algoritmos con diferentes niveles de eficacia.
+_Se aprendieron diversos algoritmos con diferentes niveles de eficacia._
 
 🔗 **Links: Link Google Drive al PDF del TP:** https://drive.google.com/file/d/13TORDKiAPtDHUePF-U01p-ZhhUutcp1M/view?usp=sharing
 
